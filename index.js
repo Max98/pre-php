@@ -115,8 +115,8 @@ function processData() {
     phpFiles = glob.sync(configData.buildPath + '/**/*.php');
 
     phpFiles.forEach(ph => {
-        if (configData.ignoreProcess.includes(ph.split('/')[2].trim())) return;
-
+        if (configData.ignoreProcess.some(r => ph.split('/').includes(r))) return;
+    
         processFile(ph);
     })
 

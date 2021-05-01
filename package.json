@@ -1,6 +1,6 @@
 {
   "name": "pre-php",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "description": "A simple php #ifdef directive compiler.",
   "main": "index.js",
   "author": "Max98 moncefbenslimane1998@gmail.com",
@@ -9,7 +9,12 @@
     "type": "git",
     "url": "https://github.com/Max98/pre-php.git"
   },
-  "keywords": ["php", "pre-php", "preprocessor", "directives"],
+  "keywords": [
+    "php",
+    "pre-php",
+    "preprocessor",
+    "directives"
+  ],
   "dependencies": {
     "chalk": "^4.1.1",
     "fs-extra": "^9.1.0",
