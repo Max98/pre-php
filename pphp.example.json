@@ -1,0 +1,5 @@
+{
+    "defs": ["__TEST"],
+    "ignore": ["node_modules", "vendor"],
+    "ignoreProcess": ["storage"]
+}
