@@ -1,6 +1,6 @@
 {
   "name": "pre-php",
-  "version": "0.1.1-beta",
+  "version": "0.1.1",
   "description": "A simple php #ifdef directive compiler.",
   "main": "index.js",
   "author": "Max98 moncefbenslimane1998@gmail.com",
