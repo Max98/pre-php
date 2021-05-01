@@ -21,9 +21,9 @@ You will need to create a `pphp.json` config file at the root of your project:
 }
 ```
 
-and run `pre-php` from the the terminal on that folder.  
-There is also a watch function `pre-php -w` that will watch for changes.  
-You can also do `pre-php -f` for a fresh build (destroy everything in the build folder and start over)
+and run `prephp` from the the terminal on that folder.  
+There is also a watch function `prephp -w` that will watch for changes.  
+You can also do `prephp -f` for a fresh build (destroy everything in the build folder and start over)
 
 #### config:
 
