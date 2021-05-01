@@ -35,3 +35,32 @@ then
 `npm link`
 
 Note: This is a hacky way to do it, do not forget to run `npm unlink` to uninstall it!
+
+### Syntax example
+
+```
+<?php
+
+#ifdef __TEST
+echo '__TEST is defined!';
+#endif
+
+#ifndef __TEST2
+echo '__TEST2 is not defined!';
+#endif
+
+#ifdef __TEST3
+echo '__TEST3 is defined!';
+#else
+echo '__TEST3 is not defined!';
+#endif
+
+#ifndef __TEST4
+echo '__TEST4 is not defined!';
+#else
+echo '__TEST4 is defined!';
+#endif
+
+echo 'enjoy!';
+
+```
